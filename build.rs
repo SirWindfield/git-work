@@ -46,8 +46,8 @@ fn main() -> Result<()> {
     let dest_path = Path::new(&out_dir).join("subcommand.rs");
     fs::write(&dest_path, module_to_write.to_string())?;
 
-    // Only re-run if the actual spinner data has changed.
+    // Only re-run if the actual json data has changed.
     println!("cargo:rerun-if-changed=build.rs");
-    println!("cargo:rerun-if-changed=spinners.json");
+    println!("cargo:rerun-if-changed=types.json");
     Ok(())
 }
