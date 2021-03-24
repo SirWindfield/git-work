@@ -8,6 +8,18 @@
   <img src=".github/git-work.cast.svg" style="height: 200px;">
 </p>
 
+## Installation
+
+```console
+$ cargo install git-work --locked
+```
+
+```console
+$ brew install sirwindfield/tap/git-work
+```
+
+Make sure to generate shell completions by running `git work completions <shell>` after the installation!
+
 #### License
 
 <sup>
