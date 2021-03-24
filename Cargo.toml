@@ -1,6 +1,7 @@
 [package]
 name = "git-work"
 description = "A git-subcommand to create branches following conventional-commits names"
+license = "Apache-2.0 OR MIT"
 repository = "https://github.com/SirWindfield/git-work"
 version = "0.1.0"
 authors = ["SirWindfield <SirWindfield@users.noreply.github.com>"]
