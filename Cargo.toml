@@ -11,7 +11,7 @@ edition = "2018"
 anyhow = "1.0.39"
 clap = "3.0.0-beta.2"
 clap_generate = "3.0.0-beta.2"
-git2 = { version = "0.13.17", default-features = false }
+git2 = { version = "0.13.18", default-features = false }
 heck = "0.3.2"
 
 [build-dependencies]
